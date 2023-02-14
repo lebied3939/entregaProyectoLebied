@@ -30,7 +30,7 @@ function cargarProductosCarrito() {
         <img class="carrito-producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
                             <div class="carrito-producto-titulo">
                                 <small>${producto.titulo}</small>
-                                <h3>Abrigo 02</h3>    
+                                <h3>${producto.categoria.id}</h3>    
                             </div>
                             <div class="carrito-producto-cantidad">
                                 <small>Cantidad</small>
@@ -75,6 +75,22 @@ function actualizarBotonesEliminar(){
 
 
 function eliminarDelCarrito(e) {
+    Toastify({
+        text: "eliminado del carrito!!!!",
+        duration: 3000,
+        
+        close: true,
+        gravity: "top", // `top` or `bottom`
+        position: "left", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+          background: "linear-gradient(to right, #6C733D, #9DA65D)",
+          borderRadius: "2rem",
+          
+        },
+        onClick: function(){} // Callback after click
+      }).showToast();
+
     const idBoton = e.currentTarget.id; 
     const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
     productosEnCarrito.splice(index,1);
@@ -101,6 +117,16 @@ function actualizarTotal (){
 botonComprar.addEventListener("click", comprarCarrito);
 
 function comprarCarrito() {
+
+    Swal.fire({
+        title: 'Muchas gracias por comprar en nuestra tienda!!',
+        showClass: {
+          popup: 'animate__animated animate__fadeInDown'
+        },
+        hideClass: {
+          popup: 'animate__animated animate__fadeOutUp'
+        }
+      })
 
     productosEnCarrito.length=0;
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito) );

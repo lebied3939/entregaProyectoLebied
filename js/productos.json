@@ -1,0 +1,186 @@
+
+ [
+   
+    {
+        "id": "carpa-01",
+        "titulo": "carpa 1",
+       "imagen": "./img/carpas/carpa 1.jpg",
+        "categoria": {
+           "nombre": "carpas",
+            "id": "carpas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "carpa 2",
+        "titulo": "carpa 02",
+       "imagen": "./img/carpas/carpa-2.jpg",
+        "categoria": {
+           "nombre": "carpas",
+            "id": "carpas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "carpa 2",
+        "titulo": "carpa 2",
+       "imagen": "./img/carpas/carpa-3.jpg",
+        "categoria": {
+           "nombre": "carpas",
+            "id": "carpas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "carpa-4",
+        "titulo": "carpa-4",
+       "imagen": "./img/carpas/carpa-4.jpg",
+        "categoria": {
+           "nombre": "carpas",
+            "id": "carpas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "carpa-5",
+        "titulo": "carpa-5",
+       "imagen": "./img/carpas/carpa-5.jpg",
+        "categoria": {
+           "nombre": "carpas",
+            "id": "carpas"
+        },
+        "precio": 1000
+    },
+
+    {
+        "id": "indumentaria 1",
+        "titulo": "indumentaria 1",
+       "imagen": "./img/indumentaria/indumentaria-1.jpg",
+        "categoria": {
+           "nombre": "indumentaria",
+            "id": "indumentaria"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "indumentaria-02",
+        "titulo": "indumentaria 2",
+       "imagen": "./img/indumentaria/indumentaria-2.jpg",
+        "categoria": {
+           "nombre": "indumentaria",
+            "id": "indumentaria"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "indumentaria-03",
+        "titulo": "indumentaria 3",
+       "imagen": "./img/indumentaria/indumentaria-3.jpg",
+        "categoria": {
+           "nombre": "indumentaria",
+            "id": "indumentaria"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "indumentaria-04",
+        "titulo": "indumentaria 4",
+       "imagen": "./img/indumentaria/indumentaria-4.jpg",
+        "categoria": {
+           "nombre": "indumentaria",
+            "id": "indumentaria"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "indumentaria-05",
+        "titulo": "indumentaria 5",
+       "imagen": "./img/indumentaria/indumentaria-5.jpg",
+        "categoria": {
+           "nombre": "indumentaria",
+            "id": "indumentaria"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "indumentaria-06",
+        "titulo": "indumentaria 6",
+       "imagen": "./img/indumentaria/indumentaria-6.jpg",
+        "categoria": {
+           "nombre": "indumentaria",
+            "id": "indumentaria"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "indumentaria-07",
+        "titulo": "indumentaria 7",
+       "imagen": "./img/indumentaria/indumentaria-7.jpg",
+        "categoria": {
+           "nombre": "indumentaria",
+            "id": "indumentaria"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "indumentaria-08",
+        "titulo": "indumentaria 8",
+       "imagen": "./img/indumentaria/indumentaria-8.jpg",
+        "categoria": {
+           "nombre": "indumentaria",
+            "id": "indumentaria"
+        },
+        "precio": 1000
+    },
+
+    {
+        "id": "mochila-1",
+        "titulo": "mochila-1",
+       "imagen": "./img/mochilas/mochila-1.jpg",
+        "categoria": {
+           "nombre": "mochilas",
+            "id": "mochilas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "mochila-2",
+        "titulo": "mochila-2",
+       "imagen": "./img/mochilas/mochila-2.jpg",
+        "categoria": {
+           "nombre": "mochilas",
+            "id": "mochilas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "mochila-3",
+        "titulo": "mochila-3",
+       "imagen": "./img/mochilas/mochila-3.jpg",
+        "categoria": {
+           "nombre": "mochilas",
+            "id": "mochilas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "mochila-4",
+        "titulo": "mochila-4",
+       "imagen": "./img/mochilas/mochila-4.jpg",
+        "categoria": {
+           "nombre": "mochilas",
+            "id": "mochilas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "mochila-5",
+        "titulo": "mochila-5",
+       "imagen": "./img/mochilas/mochila-5.jpg",
+        "categoria": {
+           "nombre": "mochilas",
+            "id": "mochilas"
+        },
+        "precio": 1000
+    }
+]
